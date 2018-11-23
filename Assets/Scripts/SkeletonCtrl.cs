@@ -21,4 +21,9 @@ public class SkeletonCtrl : MonoBehaviour {
 		rb.velocity = speed * direction.normalized;
 	}
 	
+	void OnTriggerEnter2D(Collider2D other){
+		if (other.gameObject.tag == "Shoot"){
+				Destroy(this.gameObject);
+		}
+	}
 }
