@@ -42169,7 +42169,6 @@ Transform:
   - {fileID: 1118356650}
   - {fileID: 929263433}
   - {fileID: 802256435}
-  - {fileID: 1918888187}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -44249,48 +44248,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!1001 &989927796
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 515407602}
-    m_Modifications:
-    - target: {fileID: 4932095088121376, guid: 6a6aa312bcae4fe40913d263ea9156e5, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -54.5151
-      objectReference: {fileID: 0}
-    - target: {fileID: 4932095088121376, guid: 6a6aa312bcae4fe40913d263ea9156e5, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -4.611305
-      objectReference: {fileID: 0}
-    - target: {fileID: 4932095088121376, guid: 6a6aa312bcae4fe40913d263ea9156e5, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4932095088121376, guid: 6a6aa312bcae4fe40913d263ea9156e5, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4932095088121376, guid: 6a6aa312bcae4fe40913d263ea9156e5, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4932095088121376, guid: 6a6aa312bcae4fe40913d263ea9156e5, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4932095088121376, guid: 6a6aa312bcae4fe40913d263ea9156e5, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4932095088121376, guid: 6a6aa312bcae4fe40913d263ea9156e5, type: 2}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 6a6aa312bcae4fe40913d263ea9156e5, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1001 &1013727524
 Prefab:
   m_ObjectHideFlags: 0
@@ -49994,11 +49951,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d4519aa1c8f4f9447856a66fcf7997ec, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &1918888187 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4932095088121376, guid: 6a6aa312bcae4fe40913d263ea9156e5,
-    type: 2}
-  m_PrefabInternal: {fileID: 989927796}
 --- !u!1001 &1928384514
 Prefab:
   m_ObjectHideFlags: 0
