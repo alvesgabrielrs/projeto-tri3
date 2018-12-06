@@ -24,6 +24,7 @@ public class SkeletonCtrl : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D other){
 		if (other.gameObject.tag == "Shoot"){
 			SFXManager.instance.ShowKillParticles(transform.gameObject);
+			AudioManager.instance.PlayBoneSound(transform.gameObject);
 				Destroy(this.gameObject);
 		}
 	}

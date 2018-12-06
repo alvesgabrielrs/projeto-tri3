@@ -31,4 +31,8 @@ public class AudioManager : MonoBehaviour {
 		AudioSource.PlayClipAtPoint(audioSFX.laser, obj.transform.position);
 	}
 
+	public void PlayBoneSound(GameObject obj) {
+		AudioSource.PlayClipAtPoint(audioSFX.bone, obj.transform.position);
+	}
+
 }
