@@ -90,6 +90,8 @@ public class PlayerCtrl : MonoBehaviour {
 
 		shootTime = 0f;
 
+		anim.Play("girl-shoot");
+		
 		if (sr.flipX){
 			AudioManager.instance.PlayLaserSound(leftShoot.gameObject);
 			Instantiate(leftShootPrefab, leftShoot.position, Quaternion.identity);
