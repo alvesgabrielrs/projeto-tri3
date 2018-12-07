@@ -616,6 +616,8 @@ MonoBehaviour:
     type: 2}
   killParticles: {fileID: 1794227681664362, guid: d00a22f152fdb0f468388509bed3ceb3,
     type: 2}
+  starParticles: {fileID: 1794227681664362, guid: 9f4ebc816c980314db808e58749b50f6,
+    type: 2}
 --- !u!1 &235067873
 GameObject:
   m_ObjectHideFlags: 0
@@ -27526,6 +27528,8 @@ MonoBehaviour:
     fail: {fileID: 8300000, guid: 7469862671febcc44afd4d0c0352902b, type: 3}
     laser: {fileID: 8300000, guid: 53b0fedf37309c54c9fda3da1093275a, type: 3}
     bone: {fileID: 8300000, guid: e1a4228a43974d2478859353e7153d46, type: 3}
+    star: {fileID: 8300000, guid: 72ea478ef516e9744865a86bc2975d5f, type: 3}
+    levelComplete: {fileID: 8300000, guid: f59986fc1f97a904581785337fc3d740, type: 3}
   audioPlayer:
     jump: {fileID: 8300000, guid: 230fbaa89f6c5d74fab2dd2d51f6eb24, type: 3}
 --- !u!1001 &2000129618

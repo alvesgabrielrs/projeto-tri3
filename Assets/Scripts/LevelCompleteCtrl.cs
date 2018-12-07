@@ -48,6 +48,11 @@ public class LevelCompleteCtrl : MonoBehaviour {
 				}
 			}
 		}
+
+		if (score >= scoreForNextLevel){
+			btnNext.interactable = true;
+			Plim(btnNext.gameObject);
+		}
 	}
 
 	void ExecutarAnimacao(Image starImg){
@@ -60,6 +65,12 @@ public class LevelCompleteCtrl : MonoBehaviour {
 		// Reduzir o tamanho da estrela
 		RectTransform t = starImg.rectTransform;
 		t.DOSizeDelta(new Vector2 (100f, 100f), 0.5f);
+
+		Plim(starImg.gameObject);
 	}
 
+	void Plim(GameObject obj){
+		SFXManager.instance.ShowStarParticles(obj);
+		AudioManager.instance.PlayStarSound(obj);
+	}
 }
